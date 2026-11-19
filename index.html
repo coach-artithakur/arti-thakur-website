@@ -48,6 +48,10 @@ section{padding:58px 0}.center{text-align:center}.narrow{max-width:610px;margin:
 .release-top .release-meta{font:11px Arial,sans-serif;letter-spacing:.8px;color:#f0dfe2;margin-top:12px}
 .release-top .release-price{font: bold 24px Georgia,serif;color:#fff;white-space:nowrap}
 .release-top .button{margin-top:10px;background:#ff1b60;white-space:nowrap}
+.release-top .button{animation:seatPulse 2.4s ease-in-out infinite;transform-origin:center}
+@keyframes seatPulse{0%,100%{filter:brightness(1);transform:scale(1);box-shadow:0 0 0 0 rgba(255,27,96,0)}50%{filter:brightness(1.13);transform:scale(1.045);box-shadow:0 0 0 7px rgba(255,27,96,.14)}}
+@media(prefers-reduced-motion:reduce){.release-top .button{animation:none}}
+
 @media(max-width:600px){.release-top{padding:25px 0}.release-top-inner{grid-template-columns:1fr;gap:8px}.release-top-action{display:flex;align-items:center;justify-content:space-between;gap:12px}.release-top .button{font-size:10px;padding:12px 14px;margin:0}}
 
 @media(max-width:600px){.ripple-feature,.feature-strip{grid-template-columns:1fr}.ripple-feature .ripple-image{min-height:210px;max-height:250px;order:-1}.feature-strip .video-card{max-width:100%}#manuscript .book-panel:after{width:105px;height:145px;right:5%;top:auto;bottom:22px;transform:rotate(5deg)}#manuscript .book-copy{max-width:80%}#connect{padding:58px 0}}
