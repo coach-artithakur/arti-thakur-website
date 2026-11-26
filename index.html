@@ -75,130 +75,182 @@ section{padding:58px 0}.center{text-align:center}.narrow{max-width:610px;margin:
 #space-for-you .space-close{font-size:20px;font-style:italic;color:var(--ink);margin:22px 0 0}
 
 .mission-line{max-width:620px;margin:18px auto 10px;color:var(--ink);font-size:clamp(19px,4.5vw,23px);line-height:1.45;font-weight:600}
+
+/* Homepage refresh: concise copy, visual rhythm and compact sections */
+.hero{padding-top:34px;padding-bottom:48px}.hero-support{max-width:560px;margin:12px auto 0;font-size:17px}
+.mission-line{max-width:650px;margin:18px auto 10px;color:var(--ink);font-size:clamp(20px,4.5vw,25px);line-height:1.4;font-weight:600}
+.hero .button{margin-top:22px}.hero-photo{margin-top:30px}
+#about .about-copy p{margin:10px 0}#about .about-layout{gap:26px}
+#space-for-you{background:var(--ivory)}#space-for-you .space-intro{font-size:18px;color:var(--ink)}
+.audience-grid{max-width:700px;margin:26px auto 0}.audience-grid .item{min-height:112px;display:flex;flex-direction:column;justify-content:center;background:#FFFCFA;padding:20px 22px}.audience-grid .item p{font-size:16px;color:var(--ink);margin:5px 0 0}
+#space-for-you .space-close{font-size:20px;font-style:italic;color:var(--ink);margin:28px auto 0}
+#method .ripple-feature{margin:28px auto 34px}.ripple-stages .item{min-height:170px}.ripple-stages .item p{font-size:15px}
+#coaching .inclusions-grid{max-width:680px;margin:28px auto}.inclusions-grid .item{min-height:126px}.faq-block{margin:30px auto 0}.scope-note{margin:24px auto 0}
+#explore{padding-bottom:0}#explore>.wrap.center{padding-bottom:10px}
+#explore #youtube{background:#292626;color:#fff}#explore #youtube h2,#explore #youtube p{color:#fff}#explore #youtube .eyebrow{color:#ff9ab8}#explore #youtube .video-note{color:#f0dfe2}
+#explore #manuscript{padding:58px 0}#explore #manuscript .book-panel{margin:auto}
+#connect{padding:68px 0}
+@media(max-width:600px){.hero{padding-top:22px;padding-bottom:38px}.hero-photo{width:min(100%,350px)}#about .about-layout{gap:0}.audience-grid{grid-template-columns:1fr 1fr;gap:10px}.audience-grid .item{min-height:120px;padding:16px}.audience-grid .item p{font-size:14px}.ripple-stages{grid-template-columns:1fr 1fr}.ripple-stages .item{min-height:150px;padding:17px 14px}.ripple-stages h3{font-size:23px}.ripple-stages .item p{font-size:13px}#coaching .inclusions-grid{grid-template-columns:1fr 1fr}#coaching .inclusions-grid .item:last-child{grid-column:1/-1}#explore #manuscript .book-panel{grid-template-columns:1fr;text-align:center}#explore #manuscript .book-mockup{margin:8px auto 0}}
+@media(max-width:380px){.audience-grid,.ripple-stages{grid-template-columns:1fr}}
+
 </style></head><body>
 <header class="top wrap" id="top"><img class="logo" src="assets/A.png" alt="Arti Thakur logo"></header>
 <main>
-<section class="release-top" aria-label="The 2027 Release Circle"><div class="wrap release-top-inner"><div><div class="eyebrow">A special live experience · 12 December 2026</div><h2>The 2027 Release Circle</h2><p>Cut the weight. In 2026 itself.</p><p>A 90-minute experience to release what you no longer want to carry into the year ahead.</p><div class="release-meta">12 DECEMBER · 12 PM IST · LIVE ON ZOOM · LIMITED SEATS</div></div><div class="release-top-action"><div class="release-price-wrap"><div class="release-price">₹199</div><div class="release-fee">+ applicable convenience fee</div></div><a class="button" href="https://tagmango.com/web/checkout/6af2f79fc5ca420c1b38caf1" target="_blank" rel="noopener">SAVE MY SEAT</a></div></div></section>
-<a class="whatsapp-float" href="https://wa.me/919650020943?text=Hello%20Arti%2C%20I%20would%20love%20to%20connect." target="_blank" rel="noopener" aria-label="Chat with Arti on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3C8.86 3 3.04 8.78 3.04 15.9c0 2.5.73 4.94 2.12 7.03L3 29l6.26-2.06a13.1 13.1 0 0 0 6.75 1.85h.01c7.16 0 12.98-5.78 12.98-12.9A12.86 12.86 0 0 0 16.02 3zm0 23.6c-2.1 0-4.16-.56-5.95-1.63l-.43-.25-3.72 1.22 1.21-3.6-.28-.45a10.66 10.66 0 0 1-1.64-5.7c0-5.94 4.86-10.77 10.82-10.77 2.89 0 5.6 1.12 7.64 3.15a10.68 10.68 0 0 1 3.17 7.62c0 5.94-4.86 10.77-10.82 10.77zm5.94-8.06c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.84 1.05-1.03 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.59-.96-.85-1.61-1.9-1.8-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.73-1.74-1-2.38-.26-.62-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.11 1.32 3.33c.16.21 2.28 3.47 5.52 4.87.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.62-.37z"/></svg></a>
-<section class="hero wrap"><div class="eyebrow">A space to come home to yourself</div><h1>You Were Never Meant to Fit Inside a Box.</h1><div class="quote">Not even a golden one.</div><p class="mission-line">I am on a mission to help conscious women take aligned actions to manifest like a Queen.</p><p>I believe every woman holds within her the power to consciously create a life that feels truly her own — with intention, self-trust and actions that feel aligned.</p><div class="identity-shift"><div class="shift-label">The identity shift</div><h2>From living by expectations to choosing a life that feels like yours.</h2><p>You may have spent years meeting expectations, fulfilling responsibilities and putting your own desires on hold.</p><p>This is an invitation to reconnect with who you are, honour what matters to you and make space for a life that feels fulfilling — without having to love or care for others any less.</p><div class="shift-close">You don't have to lose yourself to hold together the life you love.</div></div><a class="button" href="#method">DISCOVER MY APPROACH</a><img class="hero-photo" src="assets/20260519_175745-IMG_STYLE_Original_Original.jpeg" alt="Arti Thakur"></section>
+<section class="hero wrap" id="home">
+  <div class="eyebrow">A space to come home to yourself</div>
+  <h1>You Were Never Meant to Fit Inside a Box.</h1>
+  <div class="quote">Not even a golden one.</div>
+  <p class="mission-line">I am on a mission to help conscious women take aligned actions to manifest like a Queen.</p>
+  <p class="hero-support">Reconnect with yourself. Get clear on what you desire. Take aligned action towards a life that feels truly yours.</p>
+  <a class="button" href="#method">DISCOVER MY APPROACH</a>
+  <img class="hero-photo" src="assets/20260519_175745-IMG_STYLE_Original_Original.jpeg" alt="Arti Thakur">
+</section>
 
 <section class="pink-section" id="about">
-<div class="wrap about-layout">
-<div class="about-copy">
-<div class="eyebrow">A little about my journey</div>
-<h2>I haven't always lived with the clarity I speak about today.</h2>
-<p>I'm Arti Thakur — a mother, a seeker, and a Life &amp; Manifestation Coach.</p>
-<p>In 2019, after losing my father, I experienced grief, anxiety and moments of panic. Through my Guru's teachings, gratitude and a shift in perspective, I slowly learnt to navigate my pain differently — without pretending it wasn't there.</p>
-<p>For more than six years, I also carried a deep longing to become a mother. That journey taught me faith, patience and the meaning of surrender.</p>
-<p>These experiences changed the way I looked at life, my desires and, most importantly, myself. I realised transformation begins when we stop seeing ourselves as someone who must always come last — and start embracing the woman who knows her worth and consciously chooses herself, too.</p>
-<p class="quote">Today, that's the shift I help other women explore.</p>
-<p>Because I've been through uncertainty, longing and the search for a different way forward. And I believe you can create a life that feels more fulfilling without loving your family any less.</p>
-</div>
-<div class="about-portrait"><img class="about-cutout" src="assets/CAF7EFB2-4C22-4125-90BF-070685A8BA7B.png" alt="Arti Thakur in a floral, gold-framed portrait composition"></div>
-</div></section>
-
+  <div class="wrap about-layout">
+    <div class="about-copy">
+      <div class="eyebrow">Meet Arti</div>
+      <h2>A personal journey. A purpose-led path.</h2>
+      <p>I'm Arti Thakur — a mother, a seeker, and a Life &amp; Manifestation Coach.</p>
+      <p>My own journey through grief, uncertainty and a long-held desire to become a mother changed the way I understood faith, gratitude and the power of our inner world.</p>
+      <p class="quote">Today, I help women reconnect with themselves, honour what they desire and take aligned steps towards creating it.</p>
+      <a class="button outline" href="#connect">LET'S CONNECT</a>
+    </div>
+    <div class="about-portrait"><img class="about-cutout" src="assets/CAF7EFB2-4C22-4125-90BF-070685A8BA7B.png" alt="Arti Thakur"></div>
+  </div>
+</section>
 
 <section id="space-for-you">
   <div class="wrap">
-    <div class="space-panel">
+    <div class="center narrow">
       <div class="eyebrow">A space to choose yourself</div>
       <h2>This Space Is for You If…</h2>
-      <p class="space-intro">You have spent so much time meeting expectations that you've started losing touch with what you genuinely want.</p>
-      <ul class="space-list">
-        <li>Find yourself constantly putting everyone else's needs before your own.</li>
-        <li>Feel disconnected from the person you once imagined becoming.</li>
-        <li>Know you want more from life but aren't sure how to begin.</li>
-        <li>Are navigating a transition and want to rediscover your direction.</li>
-        <li>Want to build a deeper relationship with yourself, your desires and your inner power.</li>
-      </ul>
-      <p class="space-close">You don't need to be at your lowest point to begin choosing yourself.</p>
+      <p class="space-intro">You're a conscious woman ready to make space for what you truly want.</p>
     </div>
+    <div class="grid audience-grid">
+      <article class="item"><div class="small-label">01</div><p>You’re ready to stop putting your own desires last.</p></article>
+      <article class="item"><div class="small-label">02</div><p>You feel called towards something more, even if you can't yet name it.</p></article>
+      <article class="item"><div class="small-label">03</div><p>You’re moving through a transition and want to find your direction.</p></article>
+      <article class="item"><div class="small-label">04</div><p>You want your thoughts, intentions and actions to feel aligned.</p></article>
+    </div>
+    <p class="space-close center">You don't need to be at your lowest point to begin choosing yourself.</p>
   </div>
 </section>
 
 <section id="method">
-<div class="wrap">
-  <div class="center">
-    <div class="eyebrow">My coaching philosophy</div>
-    <h2>The Queen's Ripple Effect</h2>
-    <p class="quote narrow">Your inner shift can change the way you show up in every part of your life.</p>
-    <p class="narrow">The Queen’s Ripple Effect is built on a simple belief: when a woman reconnects with her worth and personal power, that inner shift can be felt in the way she loves, relates and shows up in the life she already cherishes.</p>
-  </div>
-  <div class="visual-banner ripple-feature">
-    <div class="feature-copy"><div class="eyebrow">The heart of my philosophy</div><h2>When you reconnect with your worth, everything begins to shift.</h2><p>The Queen’s Ripple Effect begins within you — influencing the way you relate, make choices and participate in the life around you.</p></div>
-    <img class="ripple-image" src="assets/80A9E862-8621-4CEE-997C-B0A28E5DB6C4.png" alt="A crown-shaped water droplet creating ripples across still water">
-  </div>
-  <div class="center narrow">
-    <div class="eyebrow">The heart of the philosophy</div>
-    <h3>What does it mean to live in your Queen Energy?</h3>
-    <p>It isn't about being perfect, having everything under control or putting yourself above others. It is about knowing your worth, honouring your desires, trusting your inner power and consciously choosing how you want to live.</p>
-    <p>As you begin to include yourself in the love and care you give so freely, that renewed energy can ripple into your relationships, decisions and the way you participate in the world around you.</p>
-  </div>
-  <div class="center" style="margin-top:38px">
-    <div class="eyebrow">The journey</div>
-    <h2>Four stages. One powerful ripple.</h2>
-    <p class="narrow">The Queen’s Ripple Effect unfolds through four connected stages — helping you reconnect with yourself, align with what you desire and take conscious steps towards the life you want to manifest.</p>
-  </div>
-  <div class="grid ripple-stages">
-    <article class="item"><div class="small-label">01 · Awareness</div><h3>Recognise</h3><p>Recognise your worth, reconnect with your identity and become aware of the beliefs and patterns shaping your choices.</p></article>
-    <article class="item"><div class="small-label">02 · Coming home</div><h3>Reclaim</h3><p>Reclaim the space to have your own desires, dreams and needs without feeling guilty for choosing yourself.</p></article>
-    <article class="item"><div class="small-label">03 · Alignment</div><h3>Realign</h3><p>Align your thoughts, beliefs, intentions and everyday actions with the life you genuinely want to manifest.</p></article>
-    <article class="item ripple-final"><div class="small-label">04 · Integration</div><h3>Ripple</h3><p>Put your inner shift into practice through the choices and aligned actions you take in your relationships and everyday life.</p></article>
-  </div>
-  <div class="center" style="margin:38px auto 22px">
-    <div class="eyebrow">Ways to experience the work</div>
-    <h2>Private coaching, shaped around you</h2>
-    <p class="narrow">The Queen’s Ripple Effect is the philosophy. Private coaching is the space where we explore this journey together, at your pace and in a way that honours your experiences.</p>
-  </div>
-  <div class="grid">
-    <article class="item coaching-offer" style="grid-column:1/-1">
-      <div class="small-label">Ongoing private mentorship · Month to month</div>
-      <h3>Your journey, at your own pace</h3>
-      <p class="offer-intro">Our sessions begin with you. I take the time to understand where you are, what feels important to you and what you want to manifest. Together, we explore the beliefs and patterns influencing your choices, reconnect with your strengths and bring your intentions into alignment with the way you think, choose and act. We identify practical, aligned actions you can take in everyday life, so your inner shifts are reflected in the life you are consciously creating. The Queen’s Ripple Effect is the foundation of our work, while each session responds to what feels most relevant for you.</p>
-      <h3 class="offer-subhead">What you get every month</h3>
-      <div class="grid inclusions-grid">
-        <article class="item"><div class="small-label">01 · Weekly</div><p><strong>Personal coaching</strong><br>One 60-minute session every week, on Zoom.</p></article>
-        <article class="item"><div class="small-label">02 · Between sessions</div><p><strong>WhatsApp voice-note support</strong><br>Monday to Saturday. I reply within 24 hours.</p></article>
-        <article class="item" style="grid-column:1/-1"><div class="small-label">03 · After each session</div><p><strong>A simple next step</strong><br>A short follow-up with one practice for the week.</p></article>
+  <div class="wrap">
+    <div class="center narrow">
+      <div class="eyebrow">My signature philosophy</div>
+      <h2>The Queen's Ripple Effect</h2>
+      <p class="quote">Your inner shift can create a ripple through the way you live.</p>
+    </div>
+    <div class="visual-banner ripple-feature">
+      <div class="feature-copy">
+        <div class="eyebrow">Manifest like a Queen</div>
+        <h2>It begins within. It moves through everything you do.</h2>
+        <p>Know your worth. Honour what you desire. Choose your next step with intention.</p>
       </div>
-      <p>This is for women who feel disconnected from themselves, find it difficult to prioritise their own desires, are navigating a life transition or simply know they want to live with greater clarity, confidence and alignment — even when life looks good on paper.</p>
-      <p class="scope-note">Coaching is emotional and mindset support. It is not medical, fertility, or mental health treatment, and does not replace your doctor or therapist. If you are currently in medical or fertility treatment, please continue that care alongside coaching.</p>
-      <div class="faq-block">
-        <h3 class="offer-subhead">A few things you may want to know</h3>
-        <details class="faq"><summary>Where do we have our coaching sessions?</summary><p>All sessions are conducted on Zoom. You can join from anywhere.</p></details>
-        <details class="faq"><summary>How long is each session?</summary><p>Each personal coaching session is 60 minutes.</p></details>
-        <details class="faq"><summary>What does WhatsApp support include?</summary><p>Voice notes between sessions for questions, check-ins and support. I reply within 24 hours, Monday to Saturday. This is not 24/7 chat.</p></details>
-        <details class="faq"><summary>What if I miss a session?</summary><p>Please inform me at least 24 hours before. We will reschedule once in that month, subject to availability. Missed sessions without notice cannot be carried forward.</p></details>
-      </div>
-      <p><em>My commitment is to walk alongside you. Your commitment is to yourself.</em></p>
-      <p class="honest-note">I'm in the early days of offering 1:1 coaching publicly, so I don't have a wall of testimonials yet. What I do have is lived experience, a clear method and a genuine desire to understand your journey. A free discovery call is the first step — a chance for us to connect, discuss what you're looking for and see whether working together feels right.</p>
-      <div class="contact-links">
-        <a class="button" href="https://creator.tagmango.app/coach-arti-thakur" target="_blank" rel="noopener">BOOK A FREE 30-MIN DISCOVERY CALL</a>
-      </div>
-    </article>
+      <img class="ripple-image" src="assets/80A9E862-8621-4CEE-997C-B0A28E5DB6C4.png" alt="A crown-shaped water droplet creating ripples across still water">
+    </div>
+    <div class="center" style="margin-top:38px">
+      <div class="eyebrow">The four stages</div>
+      <h2>Recognise. Reclaim. Realign. Ripple.</h2>
+    </div>
+    <div class="grid ripple-stages">
+      <article class="item"><div class="small-label">01 · Awareness</div><h3>Recognise</h3><p>See your worth, desires and the patterns shaping your choices.</p></article>
+      <article class="item"><div class="small-label">02 · Ownership</div><h3>Reclaim</h3><p>Give yourself permission to want more and choose what matters.</p></article>
+      <article class="item"><div class="small-label">03 · Alignment</div><h3>Realign</h3><p>Align your beliefs, intentions and everyday actions with what you want to manifest.</p></article>
+      <article class="item ripple-final"><div class="small-label">04 · Embodiment</div><h3>Ripple</h3><p>Let your inner shift show up in your choices, relationships and everyday life.</p></article>
+    </div>
   </div>
-  <div class="center" style="margin-top:28px">
-    <div class="eyebrow">Coming together in a group</div>
-    <h3>A group coaching experience is in development.</h3>
-    <p class="narrow">I'm thoughtfully building a structured group journey around The Queen’s Ripple Effect. More details will be shared when it is ready.</p>
-  </div>
-</div>
 </section>
 
-<section id="podcast"><div class="wrap visual-banner feature-strip"><div class="feature-copy"><div class="eyebrow">A special feature</div><h2>My First Podcast Conversation</h2><p>A conversation from the early days of my coaching journey — a milestone I'm happy to look back on and share with you.</p></div><div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/SV2mUW-Kr9Q" title="Arti Thakur's first podcast conversation" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div></section>
+<section class="soft" id="coaching">
+  <div class="wrap narrow center">
+    <div class="eyebrow">Work with me</div>
+    <h2>Private Mentorship</h2>
+    <p class="quote">Align your inner world. Get clear on what you desire. Take aligned action.</p>
+    <p>Personal guidance to help you reconnect with your strengths, shift the patterns holding you back and bring your intentions into everyday life.</p>
+  </div>
+  <div class="wrap">
+    <div class="grid inclusions-grid">
+      <article class="item"><div class="small-label">Weekly</div><p><strong>Personal coaching</strong><br>One 60-minute Zoom session every week.</p></article>
+      <article class="item"><div class="small-label">Between sessions</div><p><strong>WhatsApp support</strong><br>Voice-note support, Monday to Saturday. Replies within 24 hours.</p></article>
+      <article class="item" style="grid-column:1/-1"><div class="small-label">Your next step</div><p><strong>Weekly practice</strong><br>A simple follow-up practice after each session.</p></article>
+    </div>
+    <div class="center">
+      <a class="button" href="https://creator.tagmango.app/coach-arti-thakur" target="_blank" rel="noopener">BOOK A FREE 30-MIN DISCOVERY CALL</a>
+    </div>
+    <p class="scope-note narrow">Coaching is emotional and mindset support. It is not medical, fertility or mental health treatment, and does not replace your doctor or therapist.</p>
+    <div class="faq-block narrow">
+      <h3 class="offer-subhead center">A few practical details</h3>
+      <details class="faq"><summary>Where do we meet?</summary><p>All sessions are conducted on Zoom. You can join from anywhere.</p></details>
+      <details class="faq"><summary>How long is each session?</summary><p>Each personal coaching session is 60 minutes.</p></details>
+      <details class="faq"><summary>What does WhatsApp support include?</summary><p>Voice notes for questions, check-ins and support between sessions. I reply within 24 hours, Monday to Saturday. This is not 24/7 chat.</p></details>
+      <details class="faq"><summary>What if I miss a session?</summary><p>Please inform me at least 24 hours before. We can reschedule once in that month, subject to availability. Missed sessions without notice cannot be carried forward.</p></details>
+    </div>
+  </div>
+</section>
 
-<section class="pink-section center" id="release-circle"><div class="wrap narrow"><div class="eyebrow">One-time live experience · 12 December 2026</div><h2>The 2027 Release Circle</h2><p>A one-time, live 90-minute experience to release what you no longer want to carry into the year ahead. Unlike ongoing private coaching, this is a single gathering on 12 December 2026.</p><img class="poster" src="assets/348C8B20-622E-49A8-A4C4-3994C0827910.png" alt="The 2027 Release Circle — December 12, 2026, live on Zoom"><p class="event-meta">12 DECEMBER 2026 &nbsp;·&nbsp; 12:00 PM IST<br>LIVE ON ZOOM &nbsp;·&nbsp; 90 MINUTES<br>LIMITED SEATS</p><p style="margin:18px 0 6px;font:10px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--muted)">Your seat</p><h2 style="margin:0 0 2px;color:var(--pink)">₹199</h2><p style="font:12px Arial,sans-serif;letter-spacing:.3px;margin:0 0 10px;color:var(--muted)">+ applicable convenience fee</p><a class="button" href="https://tagmango.com/web/checkout/6af2f79fc5ca420c1b38caf1" target="_blank" rel="noopener">REGISTER FOR THE RELEASE CIRCLE</a></div></section>
-<section class="center" id="youtube"><div class="wrap narrow"><div class="eyebrow">From my YouTube channel</div><h2>Stories of the Divine, Decoded.</h2><p>Ancient Hindi devotional stories, explored through the lens of manifestation and the Law of Attraction.</p></div><div class="video-row" aria-label="Swipe horizontally to explore videos">
-<div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/kHKZaCjzPO0" title="Devotional story and manifestation video 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/65UNzBOwhrM" title="Devotional story and manifestation video 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/VCawR40jAFg" title="Devotional story and manifestation video 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/ANjfmFSeWsI" title="Devotional story and manifestation video 4" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div><div class="video-note">Swipe left to explore all four videos.</div><div class="center"><a class="button" href="https://youtube.com/@letsreset_with_artithakur" target="_blank" rel="noopener">VISIT MY YOUTUBE CHANNEL</a></div></section>
+<section id="explore">
+  <div class="wrap center narrow">
+    <div class="eyebrow">Explore my world</div>
+    <h2>Ideas, stories &amp; new beginnings.</h2>
+    <p>Conversations and reflections on manifestation, faith and the journey of finding yourself.</p>
+  </div>
+  <div class="wrap visual-banner feature-strip" id="podcast">
+    <div class="feature-copy"><div class="eyebrow">Listen in</div><h2>My First Podcast Conversation</h2><p>A conversation from the early days of my coaching journey.</p></div>
+    <div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/SV2mUW-Kr9Q" title="Arti Thakur's first podcast conversation" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  </div>
+  <div class="pink-section center" id="release-circle">
+    <div class="wrap narrow">
+      <div class="eyebrow">A special live experience · 12 December 2026</div>
+      <h2>The 2027 Release Circle</h2>
+      <p>Release what you no longer want to carry into the year ahead. A live 90-minute experience on Zoom.</p>
+      <img class="poster" src="assets/348C8B20-622E-49A8-A4C4-3994C0827910.png" alt="The 2027 Release Circle — December 12, 2026, live on Zoom">
+      <p class="event-meta">12 DECEMBER 2026 · 12:00 PM IST<br>LIVE ON ZOOM · 90 MINUTES · LIMITED SEATS</p>
+      <h2 style="margin:0;color:var(--pink)">₹199</h2>
+      <p style="font:12px Arial,sans-serif;margin:0 0 10px">+ applicable convenience fee</p>
+      <a class="button" href="https://tagmango.com/web/checkout/6af2f79fc5ca420c1b38caf1" target="_blank" rel="noopener">REGISTER FOR THE RELEASE CIRCLE</a>
+    </div>
+  </div>
+  <div class="center" id="youtube" style="padding:58px 0">
+    <div class="wrap narrow"><div class="eyebrow">From my YouTube channel</div><h2>Stories of the Divine, Decoded.</h2><p>Devotional stories explored through the lens of manifestation.</p></div>
+    <div class="video-row" aria-label="Swipe horizontally to explore videos">
+      <div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/kHKZaCjzPO0" title="Devotional story and manifestation video 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/65UNzBOwhrM" title="Devotional story and manifestation video 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/VCawR40jAFg" title="Devotional story and manifestation video 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="video-card"><iframe src="https://www.youtube-nocookie.com/embed/ANjfmFSeWsI" title="Devotional story and manifestation video 4" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    <div class="video-note">Swipe to explore all four videos.</div>
+    <a class="button" href="https://youtube.com/@letsreset_with_artithakur" target="_blank" rel="noopener">VISIT MY YOUTUBE CHANNEL</a>
+  </div>
+  <div class="soft" id="manuscript">
+    <div class="wrap book-panel">
+      <div class="book-copy">
+        <div class="eyebrow">A personal story in the making</div>
+        <h2>A Journey of Finding Myself</h2>
+        <p>A story of authenticity, self-love, growth and divine connection.</p>
+        <div class="book-quote">“I had stopped trying to be 'normal.' I had started being real.”</div>
+      </div>
+      <div class="book-mockup" role="img" aria-label="A teaser book cover marked Coming Soon, A New Chapter, by Arti Thakur"><div class="book-spine"></div><div class="book-cover"><div class="coming-soon">COMING SOON</div><div class="new-chapter">A New<br>Chapter</div><div class="book-author">ARTI THAKUR</div></div></div>
+    </div>
+  </div>
+</section>
 
-<section class="soft" id="manuscript"><div class="wrap"><div class="book-panel"><div class="book-copy"><div class="eyebrow">A personal story in the making</div><h2>A Journey of Finding Myself</h2><p>A personal journey of letting go, finding my truth and learning to listen to the divine signs that guided me towards my soul's purpose.</p><div class="book-quote">“I had stopped trying to be 'normal.' I had started being real.”</div><div class="book-quote">“Sometimes 'watering your soul' means letting someone else hold the watering can for a while.”</div><p>A story about authenticity, self-love, growth and divine connection.</p></div><div class="book-mockup" role="img" aria-label="A teaser book cover marked Coming Soon, A New Chapter, by Arti Thakur"><div class="book-spine"></div><div class="book-cover"><div class="coming-soon">COMING SOON</div><div class="new-chapter">A New<br>Chapter</div><div class="book-author">ARTI THAKUR</div></div></div></div></div></section>
-<section id="connect"><div class="wrap narrow"><div class="eyebrow">Your next step, at your own pace</div><h2>Explore Coaching With Me</h2><p>If you feel ready to explore personal guidance, let’s begin with a complimentary 30-minute discovery call. We can talk about where you are, what you’re looking for and whether working together feels right.</p><p class="book-quote">A relaxed conversation to share what's on your mind, ask questions and explore whether working together feels right. No pressure to make a decision.</p><div class="contact-links"><a class="button" href="https://creator.tagmango.app/coach-arti-thakur" target="_blank" rel="noopener">BOOK YOUR FREE 30-MINUTE DISCOVERY CALL</a></div><div class="social-links" aria-label="Social media links">
-<a class="social-link" href="https://instagram.com/letsreset_with_artithakur" target="_blank" rel="noopener" aria-label="Instagram"><img class="social-icon" src="assets/8C54628C-7764-40A8-B646-9F7DAC1E0F69.png" alt=""></a>
-<a class="social-link" href="https://youtube.com/@letsreset_with_artithakur" target="_blank" rel="noopener" aria-label="YouTube"><img class="social-icon" src="assets/133D3852-7002-4EFE-AF2B-1B35AF4B0222.png" alt=""></a>
-<a class="social-link" href="https://www.linkedin.com/in/coach-arti-thakur" target="_blank" rel="noopener" aria-label="LinkedIn"><img class="social-icon" src="assets/D3844FF2-3A28-443F-84C9-4C3516807BFE.png" alt=""></a></div></div></section>
+<section id="connect">
+  <div class="wrap narrow center">
+    <div class="eyebrow">Your next step</div>
+    <h2>Ready to Manifest Like a Queen?</h2>
+    <p>Let's start with a complimentary 30-minute discovery call. A relaxed conversation to explore what you desire and whether working together feels right.</p>
+    <a class="button" href="https://creator.tagmango.app/coach-arti-thakur" target="_blank" rel="noopener">BOOK YOUR FREE DISCOVERY CALL</a>
+    <div class="social-links" aria-label="Social media links">
+      <a class="social-link" href="https://instagram.com/letsreset_with_artithakur" target="_blank" rel="noopener" aria-label="Instagram"><img class="social-icon" src="assets/8C54628C-7764-40A8-B646-9F7DAC1E0F69.png" alt=""></a>
+      <a class="social-link" href="https://youtube.com/@letsreset_with_artithakur" target="_blank" rel="noopener" aria-label="YouTube"><img class="social-icon" src="assets/133D3852-7002-4EFE-AF2B-1B35AF4B0222.png" alt=""></a>
+      <a class="social-link" href="https://www.linkedin.com/in/coach-arti-thakur" target="_blank" rel="noopener" aria-label="LinkedIn"><img class="social-icon" src="assets/D3844FF2-3A28-443F-84C9-4C3516807BFE.png" alt=""></a>
+    </div>
+  </div>
+</section>
 </main><footer><div class="wrap">© <span id="year"></span> Arti Thakur · Life &amp; Manifestation Coach<br>Created with intention.</div></footer><button id="backTop" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <script>document.getElementById("year").textContent=new Date().getFullYear();const backTop=document.getElementById("backTop");window.addEventListener("scroll",()=>{backTop.style.display=window.scrollY>400?"block":"none";});</script>
 </body></html>
